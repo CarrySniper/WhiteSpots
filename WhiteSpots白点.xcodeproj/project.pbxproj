@@ -19,6 +19,7 @@
 		C55A953B1A8453DC0002B6F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C55A95231A8453DB0002B6F1 /* UIKit.framework */; };
 		C55A95431A8453DC0002B6F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C55A95411A8453DC0002B6F1 /* InfoPlist.strings */; };
 		C55A95451A8453DC0002B6F1 /* WhiteSpots__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C55A95441A8453DC0002B6F1 /* WhiteSpots__Tests.m */; };
+		C5AE26161A84574A00C4DB28 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AE26151A84574A00C4DB28 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		C55A95401A8453DC0002B6F1 /* WhiteSpots白点Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WhiteSpots白点Tests-Info.plist"; sourceTree = "<group>"; };
 		C55A95421A8453DC0002B6F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C55A95441A8453DC0002B6F1 /* WhiteSpots__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhiteSpots__Tests.m; sourceTree = "<group>"; };
+		C5AE26141A84574A00C4DB28 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C5AE26151A84574A00C4DB28 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,8 @@
 		C55A95131A8453DB0002B6F1 = {
 			isa = PBXGroup;
 			children = (
+				C5AE26141A84574A00C4DB28 /* ViewController.h */,
+				C5AE26151A84574A00C4DB28 /* ViewController.m */,
 				C55A95251A8453DB0002B6F1 /* WhiteSpots白点 */,
 				C55A953E1A8453DC0002B6F1 /* WhiteSpots白点Tests */,
 				C55A951E1A8453DB0002B6F1 /* Frameworks */,
@@ -239,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5AE26161A84574A00C4DB28 /* ViewController.m in Sources */,
 				C55A95301A8453DB0002B6F1 /* AppDelegate.m in Sources */,
 				C55A952C1A8453DB0002B6F1 /* main.m in Sources */,
 			);
@@ -437,6 +443,7 @@
 				C55A954A1A8453DC0002B6F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C55A954B1A8453DC0002B6F1 /* Build configuration list for PBXNativeTarget "WhiteSpots白点Tests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +452,7 @@
 				C55A954D1A8453DC0002B6F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
