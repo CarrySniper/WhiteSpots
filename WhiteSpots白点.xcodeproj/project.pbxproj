@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C55A95201A8453DB0002B6F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C55A951F1A8453DB0002B6F1 /* Foundation.framework */; };
+		C55A95221A8453DB0002B6F1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C55A95211A8453DB0002B6F1 /* CoreGraphics.framework */; };
+		C55A95241A8453DB0002B6F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C55A95231A8453DB0002B6F1 /* UIKit.framework */; };
+		C55A952A1A8453DB0002B6F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C55A95281A8453DB0002B6F1 /* InfoPlist.strings */; };
+		C55A952C1A8453DB0002B6F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C55A952B1A8453DB0002B6F1 /* main.m */; };
+		C55A95301A8453DB0002B6F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C55A952F1A8453DB0002B6F1 /* AppDelegate.m */; };
+		C55A95321A8453DB0002B6F1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C55A95311A8453DB0002B6F1 /* Images.xcassets */; };
+		C55A95391A8453DC0002B6F1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C55A95381A8453DC0002B6F1 /* XCTest.framework */; };
+		C55A953A1A8453DC0002B6F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C55A951F1A8453DB0002B6F1 /* Foundation.framework */; };
+		C55A953B1A8453DC0002B6F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C55A95231A8453DB0002B6F1 /* UIKit.framework */; };
+		C55A95431A8453DC0002B6F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C55A95411A8453DC0002B6F1 /* InfoPlist.strings */; };
+		C55A95451A8453DC0002B6F1 /* WhiteSpots__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C55A95441A8453DC0002B6F1 /* WhiteSpots__Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C55A953C1A8453DC0002B6F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C55A95141A8453DB0002B6F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C55A951B1A8453DB0002B6F1;
+			remoteInfo = "WhiteSpots白点";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C55A951C1A8453DB0002B6F1 /* WhiteSpots白点.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WhiteSpots白点.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C55A951F1A8453DB0002B6F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C55A95211A8453DB0002B6F1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C55A95231A8453DB0002B6F1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C55A95271A8453DB0002B6F1 /* WhiteSpots白点-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WhiteSpots白点-Info.plist"; sourceTree = "<group>"; };
+		C55A95291A8453DB0002B6F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C55A952B1A8453DB0002B6F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C55A952D1A8453DB0002B6F1 /* WhiteSpots白点-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WhiteSpots白点-Prefix.pch"; sourceTree = "<group>"; };
+		C55A952E1A8453DB0002B6F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C55A952F1A8453DB0002B6F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C55A95311A8453DB0002B6F1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C55A95371A8453DC0002B6F1 /* WhiteSpots白点Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WhiteSpots白点Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C55A95381A8453DC0002B6F1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C55A95401A8453DC0002B6F1 /* WhiteSpots白点Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WhiteSpots白点Tests-Info.plist"; sourceTree = "<group>"; };
+		C55A95421A8453DC0002B6F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C55A95441A8453DC0002B6F1 /* WhiteSpots__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhiteSpots__Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C55A95191A8453DB0002B6F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C55A95221A8453DB0002B6F1 /* CoreGraphics.framework in Frameworks */,
+				C55A95241A8453DB0002B6F1 /* UIKit.framework in Frameworks */,
+				C55A95201A8453DB0002B6F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C55A95341A8453DC0002B6F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C55A95391A8453DC0002B6F1 /* XCTest.framework in Frameworks */,
+				C55A953B1A8453DC0002B6F1 /* UIKit.framework in Frameworks */,
+				C55A953A1A8453DC0002B6F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C55A95131A8453DB0002B6F1 = {
+			isa = PBXGroup;
+			children = (
+				C55A95251A8453DB0002B6F1 /* WhiteSpots白点 */,
+				C55A953E1A8453DC0002B6F1 /* WhiteSpots白点Tests */,
+				C55A951E1A8453DB0002B6F1 /* Frameworks */,
+				C55A951D1A8453DB0002B6F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C55A951D1A8453DB0002B6F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C55A951C1A8453DB0002B6F1 /* WhiteSpots白点.app */,
+				C55A95371A8453DC0002B6F1 /* WhiteSpots白点Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C55A951E1A8453DB0002B6F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C55A951F1A8453DB0002B6F1 /* Foundation.framework */,
+				C55A95211A8453DB0002B6F1 /* CoreGraphics.framework */,
+				C55A95231A8453DB0002B6F1 /* UIKit.framework */,
+				C55A95381A8453DC0002B6F1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C55A95251A8453DB0002B6F1 /* WhiteSpots白点 */ = {
+			isa = PBXGroup;
+			children = (
+				C55A952E1A8453DB0002B6F1 /* AppDelegate.h */,
+				C55A952F1A8453DB0002B6F1 /* AppDelegate.m */,
+				C55A95311A8453DB0002B6F1 /* Images.xcassets */,
+				C55A95261A8453DB0002B6F1 /* Supporting Files */,
+			);
+			path = "WhiteSpots白点";
+			sourceTree = "<group>";
+		};
+		C55A95261A8453DB0002B6F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C55A95271A8453DB0002B6F1 /* WhiteSpots白点-Info.plist */,
+				C55A95281A8453DB0002B6F1 /* InfoPlist.strings */,
+				C55A952B1A8453DB0002B6F1 /* main.m */,
+				C55A952D1A8453DB0002B6F1 /* WhiteSpots白点-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C55A953E1A8453DC0002B6F1 /* WhiteSpots白点Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C55A95441A8453DC0002B6F1 /* WhiteSpots__Tests.m */,
+				C55A953F1A8453DC0002B6F1 /* Supporting Files */,
+			);
+			path = "WhiteSpots白点Tests";
+			sourceTree = "<group>";
+		};
+		C55A953F1A8453DC0002B6F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C55A95401A8453DC0002B6F1 /* WhiteSpots白点Tests-Info.plist */,
+				C55A95411A8453DC0002B6F1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C55A951B1A8453DB0002B6F1 /* WhiteSpots白点 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C55A95481A8453DC0002B6F1 /* Build configuration list for PBXNativeTarget "WhiteSpots白点" */;
+			buildPhases = (
+				C55A95181A8453DB0002B6F1 /* Sources */,
+				C55A95191A8453DB0002B6F1 /* Frameworks */,
+				C55A951A1A8453DB0002B6F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WhiteSpots白点";
+			productName = "WhiteSpots白点";
+			productReference = C55A951C1A8453DB0002B6F1 /* WhiteSpots白点.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C55A95361A8453DC0002B6F1 /* WhiteSpots白点Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C55A954B1A8453DC0002B6F1 /* Build configuration list for PBXNativeTarget "WhiteSpots白点Tests" */;
+			buildPhases = (
+				C55A95331A8453DC0002B6F1 /* Sources */,
+				C55A95341A8453DC0002B6F1 /* Frameworks */,
+				C55A95351A8453DC0002B6F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C55A953D1A8453DC0002B6F1 /* PBXTargetDependency */,
+			);
+			name = "WhiteSpots白点Tests";
+			productName = "WhiteSpots白点Tests";
+			productReference = C55A95371A8453DC0002B6F1 /* WhiteSpots白点Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C55A95141A8453DB0002B6F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = shikee_Chan;
+				TargetAttributes = {
+					C55A95361A8453DC0002B6F1 = {
+						TestTargetID = C55A951B1A8453DB0002B6F1;
+					};
+				};
+			};
+			buildConfigurationList = C55A95171A8453DB0002B6F1 /* Build configuration list for PBXProject "WhiteSpots白点" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C55A95131A8453DB0002B6F1;
+			productRefGroup = C55A951D1A8453DB0002B6F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C55A951B1A8453DB0002B6F1 /* WhiteSpots白点 */,
+				C55A95361A8453DC0002B6F1 /* WhiteSpots白点Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C55A951A1A8453DB0002B6F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C55A952A1A8453DB0002B6F1 /* InfoPlist.strings in Resources */,
+				C55A95321A8453DB0002B6F1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C55A95351A8453DC0002B6F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C55A95431A8453DC0002B6F1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C55A95181A8453DB0002B6F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C55A95301A8453DB0002B6F1 /* AppDelegate.m in Sources */,
+				C55A952C1A8453DB0002B6F1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C55A95331A8453DC0002B6F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C55A95451A8453DC0002B6F1 /* WhiteSpots__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C55A953D1A8453DC0002B6F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C55A951B1A8453DB0002B6F1 /* WhiteSpots白点 */;
+			targetProxy = C55A953C1A8453DC0002B6F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C55A95281A8453DB0002B6F1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C55A95291A8453DB0002B6F1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C55A95411A8453DC0002B6F1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C55A95421A8453DC0002B6F1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C55A95461A8453DC0002B6F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C55A95471A8453DC0002B6F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C55A95491A8453DC0002B6F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WhiteSpots白点/WhiteSpots白点-Prefix.pch";
+				INFOPLIST_FILE = "WhiteSpots白点/WhiteSpots白点-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C55A954A1A8453DC0002B6F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WhiteSpots白点/WhiteSpots白点-Prefix.pch";
+				INFOPLIST_FILE = "WhiteSpots白点/WhiteSpots白点-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C55A954C1A8453DC0002B6F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WhiteSpots白点.app/WhiteSpots白点";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WhiteSpots白点/WhiteSpots白点-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WhiteSpots白点Tests/WhiteSpots白点Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C55A954D1A8453DC0002B6F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WhiteSpots白点.app/WhiteSpots白点";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WhiteSpots白点/WhiteSpots白点-Prefix.pch";
+				INFOPLIST_FILE = "WhiteSpots白点Tests/WhiteSpots白点Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C55A95171A8453DB0002B6F1 /* Build configuration list for PBXProject "WhiteSpots白点" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C55A95461A8453DC0002B6F1 /* Debug */,
+				C55A95471A8453DC0002B6F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C55A95481A8453DC0002B6F1 /* Build configuration list for PBXNativeTarget "WhiteSpots白点" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C55A95491A8453DC0002B6F1 /* Debug */,
+				C55A954A1A8453DC0002B6F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C55A954B1A8453DC0002B6F1 /* Build configuration list for PBXNativeTarget "WhiteSpots白点Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C55A954C1A8453DC0002B6F1 /* Debug */,
+				C55A954D1A8453DC0002B6F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C55A95141A8453DB0002B6F1 /* Project object */;
+}
